@@ -8,7 +8,7 @@ import psycopg
 import requests
 
 
-def return_postgres_conn():
+def return_postgres_cursor():
 
     user_id = Variable.get('postgres_userid')
     password = Variable.get('postgres_password')
